@@ -24,7 +24,8 @@ The database consists of three main tables:
 
 **CUSTOMERS**
 - customer_id (PK)
-- customer_name
+- first_name
+- last_name
 - region
 
 **PRODUCTS**
@@ -34,10 +35,11 @@ The database consists of three main tables:
 
 **SALES**
 - sale_id (PK)
+- - sale_date
+- quantity
 - customer_id (FK)
 - product_id (FK)
-- sale_date
-- quantity
+
 
 ### 2.2 ER Diagram
 
