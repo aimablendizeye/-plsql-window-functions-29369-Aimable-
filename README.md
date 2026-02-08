@@ -45,7 +45,10 @@ The database consists of three main tables:
 
 - One customer can make multiple sales  
 - One product can appear in multiple sales  
-- The SALES table resolves the many-to-many relationship between customers and products  
+- The SALES table resolves the many-to-many relationship between customers and products
+
+  <img width="715" height="509" alt="Screenshot 2026-02-06 140451" src="https://github.com/user-attachments/assets/32c23fde-784f-4867-bdeb-eea2fa65bd8d" />
+
 
 
 ## 3. SQL JOIN Queries
